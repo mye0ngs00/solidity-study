@@ -1,0 +1,6 @@
+4장 function
+
+접근제어자는 public, private, internal, external이 존재한다.
+변수 선언이 string public a = ""; 였다면
+함수 선언은 function changeA1() public {} 이다.
+online ide에서 함수는 명령 라인으로 실행하는 것이 아니라 컨트랜트에서 값을 넣어 실행한다.

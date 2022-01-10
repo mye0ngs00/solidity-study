@@ -1,0 +1,3 @@
+20강 구조체
+
+새로운 타입을 정의한다. 이것도 parameter나 returns에 들어가려면 memory를 적어야 한다.

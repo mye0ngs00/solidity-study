@@ -1,0 +1,16 @@
+21강
+
+if-else 사용 가능
+
+22강
+
+for 사용 가능
+
+23강
+while 사용 가능
+
+24강
+solidity내에서는 string을 비교할 수 없다.
+그래서 string과 string을 비교하기 위해서는 bytes화 시켜주고 keccak256() 내장 함수를 이용하여
+해시화를 시켜준 뒤 비교해야 한다.
+두 개의 값을 return할 때에는 return (i, arr[i]); 같은 문장을 이용한다.

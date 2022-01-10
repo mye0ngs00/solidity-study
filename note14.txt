@@ -1,0 +1,9 @@
+14강 이벤트 인덱스드
+
+여러 이벤트가 있을 때 하나의 이벤트만 사용하고 싶은 경우 사용된다.
+event numberTracker2(uint256 indexed num, string str); 이라고 한다면 num의 indexing을 통해 이벤트들을 가지고 올 수 있다.
+
+instance는 deploy할 때마다 새로 생성되지만 contract 내에 적힌 storage에 들어있는 애들은 deploy시에도 유지된다.
+배포 할 때마다 멤버 변수 number를 ++ 시킬 수도 있다.
+
+getPastEvents를 사용하여 이벤트를 가지고 올 수 있다.

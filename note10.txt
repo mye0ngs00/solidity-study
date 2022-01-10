@@ -1,0 +1,4 @@
+10강 상속
+
+smart contract내에서도 다른 smart contract에 상속시킬 수 있다.
+ex) son smart contract가 father smart contract에 상속되는 코드 [code-10]

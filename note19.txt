@@ -1,0 +1,4 @@
+19강 array와 mapping의 주의할 점.
+
+mapping도 array도 reference타입이라 arr[0] = 3;으로 접근해야 하지
+arr[0] = num, num = 3으로 arr[0]을 변경하려고 해선 안 된다.

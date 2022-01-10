@@ -1,0 +1,4 @@
+16강 상속의 순서
+
+contract Son is Father, Mother) 선언 시 super.who();를 사용했을 때 가장 최신에 상속된 Mother의 who를 가지고 온다.
+contract Son is Mother, Father으로 선언 하면 Father의 who를 가지고 온다.

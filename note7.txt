@@ -1,0 +1,12 @@
+7강 string
+
+solidity는 간단하게 네 가지 영역으로 나뉜다.
+storage, memory, colldata, stack,
+storage: 대부분의 변수, 함수들이 저장된다. 컨트랙트의 멤버함수 멤버변수를 저장하는 정적 할당이라고 보면 된다.
+     컨트랙트에 영속적으로 저장되며 가스 비용이 비싸다.
+memory: 함수의 파라미터, 리턴값, 레퍼런스 타입 등이 저장된다. 영속적이지 않고 가스비용이 싸다.
+colldata: external function의 parameter에 사용된다.
+stack: EVM (Ethureum Virtual Machine) 에서 stack data를 관리할 때 쓰는 영역이고 1024Mb로 제한적이다.
+
+string은 기본 데이터 타입이 아니라서 reference에 들어간다. 그래서 bytes로 하면 0x333로 바껴서 삽입된다.
+그리고 string은 ref타입이어서 memory를 지정해줘야 한다. 기본 데이터 타입은 자동으로 memory를 삽입해줘서 명시할 필요가 없다.

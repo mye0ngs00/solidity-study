@@ -1,0 +1,4 @@
+17강 Mapping
+
+mapping은 특정한 key를 넣어주면 그에 해당하는 value를 반환시켜 준다.
+mapping은 length 기능이 없다.
