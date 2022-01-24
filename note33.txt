@@ -1,0 +1,5 @@
+33강 balance와 msg.sender
+
+[address].balance 는 특정 주소가 현재 가지고 있는 이더의 잔액을 나타 냅니다.
+msg.value는 송금액을 나타 냅니다.
+msg.sender는 smart contract를 사용하는 주체다. 앞으로 배울 call, delegate call에서 중요하다.
